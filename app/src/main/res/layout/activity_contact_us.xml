@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ContactUs">
+
+    <RelativeLayout
+        android:layout_width="400dp"
+        android:layout_height="800dp"
+        android:layout_marginLeft="4dp"
+        android:layout_marginTop="4dp"
+        android:layout_marginRight="4dp"
+        android:layout_marginBottom="4dp"
+        android:background="#FFFFFF"
+        tools:layout_editor_absoluteX="7dp"
+        tools:layout_editor_absoluteY="7dp">
+
+        <ImageView
+            android:layout_width="341dp"
+            android:layout_height="210dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:src="@drawable/contactus" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="60dp"
+            android:layout_marginTop="255dp"
+            android:text="MOBILE"
+            android:textColor="#000000" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="24dp"
+            android:layout_marginTop="274dp"
+            android:drawableLeft="@drawable/ic_baseline_call_24"
+            android:text="    03110547278\n    03055687537\n    03111534563" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="60dp"
+            android:layout_marginTop="340dp"
+            android:text="EMAIL"
+            android:textColor="#000000" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="24dp"
+            android:layout_marginTop="359dp"
+            android:drawableLeft="@drawable/ic_baseline_email_24"
+            android:text="    amber.bsit215@iiu.edu.pk\n    laraib.bsit218@iiu.edu.pk\n    azqa.bsit213@iiu.edu.pk" />
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="60dp"
+            android:layout_marginTop="422dp"
+            android:text="INSTITUTE"
+            android:textColor="#000000" />
+
+        <TextView
+            android:id="@+id/iiui"
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:layout_marginLeft="24dp"
+            android:layout_marginTop="441dp"
+            android:drawableLeft="@drawable/ic_baseline_location_on_24"
+            android:text="    International Islamic University\n    Islamabad-IIUI" />
+
+
+
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="60dp"
+            android:layout_marginTop="530dp"
+            android:text="FACEBOOK"
+            android:textColor="#000000" />
+
+        <TextView
+            android:id="@+id/join"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="60dp"
+            android:layout_marginTop="548dp"
+            android:clickable="true"
+            android:text="Join Us on Facebook" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="60dp"
+            android:layout_marginTop="584dp"
+            android:text="INSTAGRAM"
+            android:textColor="#000000" />
+
+        <TextView
+            android:id="@+id/join2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="60dp"
+            android:layout_marginTop="603dp"
+            android:clickable="true"
+            android:text="Join Us on Instagram" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="60dp"
+            android:layout_marginTop="639dp"
+            android:text="TWITTER"
+            android:textColor="#000000" />
+
+        <TextView
+            android:id="@+id/join3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="60dp"
+            android:layout_marginTop="658dp"
+            android:clickable="true"
+            android:text="Join Us on Twitter" />
+
+        <ImageView
+            android:layout_width="27dp"
+            android:layout_height="27dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="534dp"
+            android:src="@drawable/fb" />
+
+        <ImageView
+            android:layout_width="31dp"
+            android:layout_height="31dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="590dp"
+            android:src="@drawable/insta" />
+
+        <ImageView
+            android:layout_width="31dp"
+            android:layout_height="31dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="640dp"
+            android:src="@drawable/twitter" />
+    </RelativeLayout>
+
+</ScrollView>
+

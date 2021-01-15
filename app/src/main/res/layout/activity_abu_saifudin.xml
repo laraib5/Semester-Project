@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#FFFFFF"
+    tools:context=".abuSaifudin">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="1000dp"
+        android:orientation="vertical">
+
+
+        <ImageView
+            android:layout_width="408dp"
+            android:layout_height="200dp"
+            android:background="#7AC3E4"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="300dp"
+            android:layout_height="90dp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="-57dp"
+            android:background="#FFFFFF"
+            app:cardBackgroundColor="#FFFFFF">
+
+            <ImageView
+                android:layout_width="78dp"
+                android:layout_height="78dp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="5dp"
+                android:background="#CFCCCC" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="94dp"
+                android:layout_marginTop="10dp"
+                android:text="Dr. Abu Saifudin"
+                android:textColor="#292626"
+                android:textSize="20dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="94dp"
+                android:layout_marginTop="32dp"
+                android:text="Assistant Professor\nNeuromedicine" />
+
+        </androidx.cardview.widget.CardView>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="12dp"
+            android:drawableLeft="@drawable/ic_baseline_menu_book_24"
+            android:text="   Biograpgy" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/edit_text_bg"
+            android:text="Dr. Abu Saifudin is a Assistant Professor of Neurology practicing at Neuro Care Clinic, Karachi, Online Clinic Karachi, Karachi, Video Consultation, Lahore. He is a specialist in treating diseases related to Autism, Brainstem Death, Cerebral Abscess, Cluster Headaches, Learning Disability." />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="12dp"
+            android:drawableLeft="@drawable/ic_baseline_perm_identity_24"
+            android:text="   Profile Overview" />
+
+        <TextView
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/edit_text_bg"
+            android:text=" Experience\t\t\t\t\t\t\t\t\t\t\t\t\tDate of Birth\n 15 years\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t1990-08-08\n\n Email Address\t\t\t\t\t\t\t\t\t\t\tMobile\n saifudin@gmail.com\t\t\t\t\t\t\t03172383386" />
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="12dp"
+            android:drawableLeft="@drawable/ic_baseline_school_24"
+            android:text="   Career" />
+
+        <TextView
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/edit_text_bg"
+            android:text="MD, MPhil, PhD" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="12dp"
+            android:drawableLeft="@drawable/ic_baseline_location_on_24"
+            android:text="   Address" />
+
+        <TextView
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/edit_text_bg"
+            android:text="House#25, 4th Floor, Mannan Plaza, Islamabad" />
+
+        <Button
+            android:id="@+id/btn"
+            android:layout_width="299dp"
+            android:layout_height="32dp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="20dp"
+            android:background="#7AC3E4"
+            android:clickable="true"
+            android:text=" Get An Appointment" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"/>
+    </LinearLayout>
+
+</ScrollView>

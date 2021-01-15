@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg"
+    tools:context=".HomePage">
+
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:text="DASHBOARD"
+        android:textSize="30sp"
+        android:layout_marginTop="80dp"/>
+
+
+    <ImageView
+        android:id="@+id/image1"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:src="@drawable/ic_baseline_person_24"
+        android:layout_below="@id/title"
+        android:layout_marginTop="50dp"
+        android:layout_marginLeft="40dp"/>
+
+    <Button
+        android:id="@+id/my_profile"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/image1"
+        android:text="My Profile"
+        android:textStyle="bold"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="40dp"/>
+
+    <ImageView
+        android:id="@+id/image2"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:src="@drawable/ic_baseline_calendar_today_24"
+        android:layout_below="@id/title"
+        android:layout_toRightOf="@id/image1"
+        android:layout_marginTop="50dp"
+        android:layout_marginLeft="80dp"/>
+
+    <Button
+        android:id="@+id/get_Apoointment"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:text="Book an Appointment"
+        android:textStyle="bold"
+        android:layout_below="@id/image2"
+        android:layout_toRightOf="@id/my_profile"
+        android:layout_marginTop="40dp"
+        android:layout_marginLeft="30dp" />
+
+    <ImageView
+        android:id="@+id/image3"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:src="@drawable/ic_baseline_search_24"
+        android:layout_below="@id/get_Apoointment"
+        android:layout_marginTop="50dp"
+        android:layout_marginLeft="40dp"/>
+
+    <Button
+        android:id="@+id/find_doctor"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:text="Find a Doctor"
+        android:textStyle="bold"
+        android:layout_below="@id/image3"
+        android:layout_marginTop="40dp"
+        android:layout_marginLeft="20dp"/>
+
+    <ImageView
+        android:id="@+id/image4"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:src="@drawable/ic_baseline_list_alt_24"
+        android:layout_below="@id/get_Apoointment"
+        android:layout_toRightOf="@id/image3"
+        android:layout_marginTop="50dp"
+        android:layout_marginLeft="80dp"/>
+
+    <Button
+        android:id="@+id/upcoming_Appointment"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:text="Upcoming_Appointment"
+        android:textStyle="bold"
+        android:layout_below="@+id/image4"
+        android:layout_toRightOf="@id/find_doctor"
+        android:layout_marginTop="40dp"
+        android:layout_marginLeft="30dp"/>
+
+
+
+    <androidx.drawerlayout.widget.DrawerLayout
+        android:id="@+id/drawer_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fitsSystemWindows="true"
+        tools:openDrawer="start">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+            <androidx.appcompat.widget.Toolbar
+                android:id="@+id/toolbar"
+                android:layout_width="match_parent"
+                android:layout_height="?attr/actionBarSize"
+                android:background="#2FB6F3"
+                android:elevation="4dp"
+                android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"
+                app:popupTheme="@style/ThemeOverlay.AppCompat.Light" />
+            <FrameLayout
+                android:id="@+id/fragment_container"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" />
+        </LinearLayout>
+        <com.google.android.material.navigation.NavigationView
+            android:id="@+id/nav_view"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_gravity="start"
+            app:headerLayout="@layout/nav_header"
+            app:menu="@menu/menu" />
+    </androidx.drawerlayout.widget.DrawerLayout>
+
+    </RelativeLayout>
